@@ -2,7 +2,7 @@
 
 ## 作業內容
 
-請使用 **LangChain** 套件完成以下作業，並實作提供的方法 `generate(question, use_tools_call)`。此方法放置於的檔案 **`student_assignment.py`** 中。
+請使用 **LangChain** 套件完成以下作業，並實作提供的方法 `generate(question, use_tools_call)`。實作於新建的檔案 **`student_assignment.py`** 中。
 
 ---
 
