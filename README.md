@@ -26,9 +26,30 @@
 
 ### 作業2
 
-1. 問題：`2024年台灣10月紀念日有哪些?`
-2. 方法：使用 Function Calling 查詢指定的API，實作 `generate_node(question)`，用於回答上述問題。
-3. 輸出格式需為 JSON，
+1. **問題**：`2024年台灣10月紀念日有哪些?`
+2. **方法**：
+   - 使用 Function Calling 的方式查詢指定的 API。
+   - 實作 `generate_node(question)`，用於回答上述問題。
+3. **指定 API**：
+   - 使用 [Calendarific API](https://calendarific.com/)。
+   - 步驟：
+     1. 訪問 Calendarific 網站並註冊帳戶。
+     2. 登錄後進入 Dashboard，取得您的 API Key。
+4. **輸出格式**：
+   - JSON 格式如下：
+     ```json
+     {
+         "Result": [
+             {
+                 "日期": "2024-10-10",
+                 "名稱": "國慶日"
+             }
+         ]
+     }
+     ```
+
+---
+
 
 
 ### 注意事項
