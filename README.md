@@ -2,14 +2,14 @@
 
 ## 作業內容
 
-請使用 **LangChain** 套件完成以下作業，並實作提供的方法 `generate_node(question)`。
+請使用 **LangChain** 套件完成以下作業，並實作提供的方法 `generate(question, use_tools_call)`。
 
 ---
 
 ### 作業1
 
 1. 問題：`2024年台灣10月紀念日有哪些?`
-2. 方法：實作 `generate_node(question)`，用於回答上述問題。
+2. 方法：實作 `generate(question, use_tools_call=False)`，用於回答上述問題。
 3. 輸出格式需為 JSON，範例如下：
     ```json
     {
@@ -29,7 +29,7 @@
 1. **問題**：`2024年台灣10月紀念日有哪些?`
 2. **方法**：
    - 使用 Function Calling 的方式查詢指定的 API。
-   - 實作 `generate_node(question)`，用於回答上述問題。
+   - 實作 `generate(question, use_tools_call=True)`，用於回答上述問題。
 3. **指定 API**：
    - 使用 [Calendarific API](https://calendarific.com/)。
    - 步驟：
